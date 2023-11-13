@@ -1,0 +1,128 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main form {
+    background-color: #000000c7;
+    width: 450px;
+    height: 660px;
+}
+
+main form h1 {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 2rem;
+    margin: 3rem 0 2.5rem 3.6rem;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#email-tel, #password {
+    padding: 1rem 1rem;
+    width: 67%;
+    border: none;
+    border-radius: 4px;
+    background-color: #ececec3d;
+}
+
+#email-tel:focus, #password:focus {
+    outline: none;
+}
+
+#email-tel::placeholder, #password::placeholder {
+    color: #ececec80;
+}
+
+#password {
+    margin-top: 1rem;
+}
+
+.entrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entrar button {
+    width: 75%;
+    border: none;
+    border-radius: 4px;
+    margin-top: 3rem;
+    padding: 1rem 1rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.login-checkbox {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+}
+
+.login-checkbox_input {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.login-checkbox_input label {
+    color: #B3B3B3;
+    font-size: .9rem;
+}
+
+#checkbox {
+    background-color: #ececec3d;
+}
+
+.login-checkbox a {
+    text-decoration: none;
+    color: #B3B3B3;
+    font-size: .9rem;
+}
+
+.login-checkbox a:hover {
+    border-bottom: 1px solid #B3B3B3;
+}
+
+.cliente-novo {
+    color: white;
+    padding-top: 5rem;
+    padding-left: 3.5rem;
+}
+
+.cliente-novo span {
+    color: #B3B3B3;
+}
+
+.cliente-novo span a {
+    color: white;
+    text-decoration: none;
+}
+
+.cliente-novo span a:hover {
+    border-bottom: 1px solid white;
+}
+
+.cliente-novo p {
+    font-size: .75rem;
+    color: #B3B3B3;
+    width: 75%;
+}
+
+.cliente-novo p a {
+    text-decoration: none;
+    color: rgb(44, 44, 254);
+}
+
+.cliente-novo p a:hover {
+    border-bottom: 1px solid rgb(44, 44, 254);
+}
